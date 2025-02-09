@@ -1,17 +1,17 @@
-README - Neural Network Training & Optimization
-Home Assignment 1
+**README - Neural Network Training & Optimization**
+**Home Assignment 1**
 
-Student Information
+**Student Information**
 
 Name: [venkata nanda krishna yaram]
 Student ID: [7000765514]
 Course: [CS5720 NEURAL NETWORK AND DEEP LEARNING CRN23848]
 
-Project Overview
+**Project Overview**
 
 This project focuses on tensor manipulations, loss functions, optimizer comparison, and logging with TensorBoard using TensorFlow and Keras. We implemented different machine learning workflows on the MNIST dataset, analyzed model performance, and visualized training results.
 
-Contents
+**Contents**
 
 Q1.ipynb Tensor Manipulations & Reshaping
 
@@ -21,15 +21,15 @@ Q3.ipynb Training a Model with Different Optimizers
 
 Q4.ipynb Training a Neural Network with TensorBoard Logging
 
-1. Tensor Manipulations & Reshaping
+**1. Tensor Manipulations & Reshaping**
 
-Objective:
+**Objective:**
 
 Generate random tensors, check their rank and shape, reshape and transpose them.
 
 Perform tensor broadcasting and addition.
 
-Steps:
+**Steps:**
 
 Create a random tensor of shape (4,6).
 
@@ -41,9 +41,9 @@ Broadcast a smaller tensor (1,6) to match the larger tensor and add them.
 
 Explain the concept of broadcasting in TensorFlow.
 
-2. Loss Functions & Hyperparameter Tuning
+**2. Loss Functions & Hyperparameter Tuning**
 
-Objective:
+**Objective:**
 
 Implement and compare Mean Squared Error (MSE) and Categorical Cross-Entropy (CCE) loss functions.
 
@@ -51,7 +51,7 @@ Observe how small changes in predictions impact loss values.
 
 Visualize the loss function comparisons.
 
-Steps:
+**Steps:**
 
 Define true values (y_true) and model predictions (y_pred).
 
@@ -61,9 +61,9 @@ Modify predictions slightly and observe changes in loss values.
 
 Plot loss function values using Matplotlib to compare trends.
 
-3. Training a Model with Different Optimizers
+**3. Training a Model with Different Optimizers**
 
-Objective:
+**Objective:**
 
 Train an MNIST classification model using Adam and SGD optimizers.
 
@@ -71,7 +71,7 @@ Compare their training and validation accuracy trends.
 
 Visualize performance differences.
 
-Steps:
+**Steps:**
 
 Load and preprocess the MNIST dataset (normalize pixel values).
 
@@ -87,15 +87,15 @@ Compare training and validation accuracy trends.
 
 Plot accuracy curves using Matplotlib for comparison.
 
-4. Training a Neural Network with TensorBoard Logging
+**4. Training a Neural Network with TensorBoard Logging**
 
-Objective:
+**Objective:**
 
 Train an MNIST model while logging training data to TensorBoard.
 
 Analyze accuracy and loss trends in TensorBoard.
 
-Steps:
+**Steps:**
 
 Load and preprocess the MNIST dataset.
 
@@ -111,7 +111,7 @@ tensorboard --logdir logs/fit/
 
 Analyze training vs. validation accuracy and loss trends.
 
-Conclusion
+**Conclusion**
 
 This project covered various essential deep-learning tasks, including tensor operations, loss function analysis, optimizer comparison, and TensorBoard visualization. Key insights include:
 
